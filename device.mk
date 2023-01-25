@@ -39,7 +39,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-   SonyPDX203SystemUIRes 
+   Sonypdx206SystemUIRes 
 
 # HDR
 PRODUCT_COPY_FILES += \
@@ -55,4 +55,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/sony/pdx203/pdx203-vendor.mk)
+$(call inherit-product, vendor/sony/pdx206/pdx206-vendor.mk)
