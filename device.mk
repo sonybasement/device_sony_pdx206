@@ -25,6 +25,9 @@
 # Inherit from sony sm8250-common
 $(call inherit-product, device/sony/sm8250-common/edo.mk)
 
+# Inherit from sony extra stuff
+$(call inherit-product-if-exists, vendor/sony/extra/extra.mk)
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2520
 TARGET_SCREEN_WIDTH := 1080
